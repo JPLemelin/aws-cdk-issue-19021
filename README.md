@@ -5,7 +5,8 @@ Stack content:
  * 300 dummy ressources, in this case it's `AWS::IAM::Role`
  * 68 lambdas, each lambda use the same asset code
 
-A *HotSwap* deployment `cdk deploy --hotswap`  take ~344 sec vs a classic deployment `cdk deploy` take ~166 sec
+A *HotSwap* deployment `cdk deploy --hotswap`  take ~270 sec vs a classic deployment `cdk deploy` take ~166 sec
+
 
 
 ## Useful commands
